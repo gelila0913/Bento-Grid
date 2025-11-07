@@ -44,9 +44,12 @@ padding:2%;
 }
 .gri1 p{
   padding-top:20px;
+  
 }
 .gri6{
   grid-auto-flow:dense;
   grid-row:2/4;
   grid-column:1/2;
+  background-color: rgb(240, 186, 87) ;
+  border-radius:5px;
 }
