@@ -1,11 +1,12 @@
-/* body{
+body{
 min-height:100dvh;
 display:flex;
 align-items:centere;
 justify-content:centere;
 padding:2%;
+background-color:whitesmoke ;
 
-} */
+}
 .grid-container{
   display:grid;
   grid-template-columns: 150px 100px 100px 150px;
@@ -44,12 +45,83 @@ padding:2%;
 }
 .gri1 p{
   padding-top:20px;
+  font-weight: bolder;
   
 }
-.gri6{
+.gri6{ 
   grid-auto-flow:dense;
   grid-row:2/4;
   grid-column:1/2;
   background-color: rgb(240, 186, 87) ;
   border-radius:5px;
+}
+.gri6 p{
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+}
+.gri6 .inner{
+background-color: white;
+height:90px;
+border-radius: 5px;
+padding-left: 100px;
+}
+.gri6 .inner2{
+  background-color: antiquewhite;
+  height:30px;
+  padding-top: 10px;
+} 
+.inner .inner2 img{
+  height:20px;
+  padding-left:30px;
+}
+.gri2{
+  background-color:rgb(122, 122, 223);
+  text-align: center;
+
+}
+.gri2 p{
+  color:white;
+  font-weight: bolder;
+  
+}
+.gri3{
+  background-color: rgb(206, 206, 241);
+  text-align: center;
+}
+.gri3 p{
+  font-weight: bolder;
+}
+.gri3 .white{
+  border-radius: 5px;
+  height:50px;
+  background-color:white;
+}
+.gri4{
+border-radius: 5px;
+background-color: white;
+
+}
+.gri5{
+  background-color: rgb(240, 186, 87);
+}
+.gri5 p{
+  font-weight: bolder;
+  text-align: center;
+}
+.gri7{
+  background-color: white;
+  text-align: center;
+}
+.gri7 .image{
+  display:flex;
+  height:30px;
+}
+.gri7 p{
+
+}
+.gri8{
+    background-color:rgb(122, 122, 223) ;
+    display: flex;
+
 }
