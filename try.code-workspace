@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../carimage"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "try"
+	}
+}
