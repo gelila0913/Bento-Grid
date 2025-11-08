@@ -13,7 +13,7 @@ background-color:whitesmoke ;
 .grid-container{
   display:grid;
   grid-template-columns: 150px 120px 120px 150px;
-  grid-template-rows: 170px 70px 70px 130px ;
+  grid-template-rows: 170px 70px 70px 150px ;
   gap:1em;
   justify-content:center;
   grid-template-areas:
@@ -21,6 +21,7 @@ background-color:whitesmoke ;
   "box1 box4 box5 box3"
   "box6 box4 box5 box3"
   "box6 box7 box8 box8";
+  margin:50px;
 }
 .gri{
   background-color: rgb(25, 110, 110);
@@ -43,41 +44,16 @@ background-color:whitesmoke ;
   outline: none;
   background-color:rgb(240, 186, 87) ;
   border-radius: 20px;
-  height:35px;
+  height:30px;
   
 }
 .gri1 p{
   padding-top:20px;
+  padding-left: 20px;
   font-weight: bolder;
-  
+  text-align: left;
 }
-.gri6{ 
-  grid-auto-flow:dense;
-  grid-row:2/4;
-  grid-column:1/2;
-  background-color: rgb(240, 186, 87) ;
-  border-radius:5px;
-}
-.gri6 p{
-  font-weight: bolder;
-  text-align: center;
-  justify-content: center;
-}
-.gri6 .inner{
-background-color: white;
-height:90px;
-border-radius: 5px;
-padding-left: 100px;
-}
-.gri6 .inner2{
-  background-color: antiquewhite;
-  height:30px;
-  padding-top: 10px;
-} 
-.inner .inner2 img{
-  height:20px;
-  padding-left:30px;
-}
+
 .gri2{
   background-color:rgb(129, 33, 219);
   text-align: center;
@@ -153,9 +129,35 @@ padding-left: 100px;
 }
 
 .gri4{
-border-radius: 5px;
+border-radius: 20px;
 background-color: white;
+}
+.gri4 p{
+  padding-top: 1px;
+  margin-left:10px;
+  font-weight:bolder;
 
+} 
+.gri4 .top{
+  width:115px;
+  height:45px;
+  margin-top:10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  box-shadow: 0 1px 1px rgba(0,0,0,1);
+  border-radius:20px;
+  background-color: white;
+}
+.gri4 .img{
+margin-left: 1px;
+padding-top: 10px;
+margin-left: 10px;
+}
+.gri4 .top img{
+
+width:18px;
+border-radius: 360px;
+background-color:rgb(240, 186, 87) ;
 }
 .gri5{
   background-color: rgb(240, 186, 87);
@@ -165,6 +167,35 @@ background-color: white;
 .gri5 p{
   font-weight: bolder;
   text-align: center;
+  text-align: left;
+  margin-left: 15px;
+}
+.gri6{ 
+  grid-auto-flow:dense;
+  grid-row:2/4;
+  grid-column:1/2;
+  background-color: rgb(240, 186, 87) ;
+  border-radius:5px;
+}
+.gri6 p{
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+}
+.gri6 .inner{
+background-color: white;
+height:90px;
+border-radius: 5px;
+padding-left: 100px;
+}
+.gri6 .inner2{
+  background-color: antiquewhite;
+  height:30px;
+  padding-top: 10px;
+} 
+.inner .inner2 img{
+  height:20px;
+  padding-left:30px;
 }
 .gri7{
   background-color: white;
@@ -176,26 +207,42 @@ background-color: white;
   display:flex;
   height:30px;
 }
-.gri7 p{
 
-}
 .gri8{
     background-color:hsl(258, 70%, 55%);
- ;
     border-radius: 5px;
+    display:flex;
+    gap:2px;
+    box-sizing: border-box;
 
 }
 .gri8  .white{
-  height:100px;
-  width:100px;
+  height:120px;
+  width:130px;
   background-color: white;
   border-radius:10px;
   margin:20px;
   box-sizing: border-box;
 }
+.gri8 .white .text{
+margin-left: 10px;
+line-height:0.1;
+padding-top:15px;
+margin-right:10px;
+}
+.gri8 .num{
+display:flex;
+}
+
+.gri8 .bars{
+  align-items: flex-end;
+gap:10px;
+}
+gri8 .bar{
+  background-color: blue;
+  width:9px;
+}
 .gri8 .p{
   color:white;
-  margin-left: 120px;
-  justify-content: center;
 
 }
