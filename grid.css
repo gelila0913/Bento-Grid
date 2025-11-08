@@ -12,8 +12,8 @@ background-color:whitesmoke ;
 }
 .grid-container{
   display:grid;
-  grid-template-columns: 150px 100px 100px 150px;
-  grid-template-rows: 150px 70px 70px 130px ;
+  grid-template-columns: 150px 120px 120px 150px;
+  grid-template-rows: 170px 70px 70px 130px ;
   gap:1em;
   justify-content:center;
   grid-template-areas:
@@ -34,7 +34,7 @@ background-color:whitesmoke ;
 }
 
 .but{
-  padding:20px;
+  margin-top:5px;
 }
 .gri1 button{
   color:rgb(106, 106, 194);
@@ -79,17 +79,21 @@ padding-left: 100px;
   padding-left:30px;
 }
 .gri2{
-  background-color:rgb(122, 122, 223);
+  background-color:rgb(129, 33, 219);
   text-align: center;
+  border-radius: 5px;
+}
+.gri2 div{
+    line-height:1;
 
 }
 .gri2 p{
   color:white;
   font-weight: bolder;
-  
+  font-size: 25px;
 }
 .gri3{
-  background-color: rgb(206, 206, 241);
+  background-color: rgb(224, 209, 243);
   text-align: center;
   border-radius: 5px;
 }
@@ -107,7 +111,7 @@ padding-left: 100px;
 
 }
 .gri3 .week{
-  color:rgb(202, 198, 198);
+  color:rgb(170, 169, 169);
   display:flex;
   font-size: 10px;
   margin-left: 10px;
@@ -123,7 +127,7 @@ padding-left: 100px;
   justify-content: center;
 }
 .gri3 .bar{
-  background-color: rgb(79, 79, 248);
+  background-color:rgb(68, 68, 192) ;
   width:9px;
   border-radius: 5px;
   margin-bottom: 0%;
@@ -155,6 +159,8 @@ background-color: white;
 }
 .gri5{
   background-color: rgb(240, 186, 87);
+  border-radius: 5px;
+
 }
 .gri5 p{
   font-weight: bolder;
@@ -163,6 +169,8 @@ background-color: white;
 .gri7{
   background-color: white;
   text-align: center;
+  border-radius: 5px;
+
 }
 .gri7 .image{
   display:flex;
@@ -172,7 +180,10 @@ background-color: white;
 
 }
 .gri8{
-    background-color:rgb(122, 122, 223) ;
+    background-color:hsl(258, 70%, 55%);
+ ;
+    border-radius: 5px;
+
 }
 .gri8  .white{
   height:100px;
