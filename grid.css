@@ -13,7 +13,7 @@ background-color:whitesmoke ;
 .grid-container{
   display:grid;
   grid-template-columns: 150px 100px 100px 150px;
-  grid-template-rows: 150px 70px 50px 130px ;
+  grid-template-rows: 150px 70px 70px 130px ;
   gap:1em;
   justify-content:center;
   grid-template-areas:
@@ -91,6 +91,7 @@ padding-left: 100px;
 .gri3{
   background-color: rgb(206, 206, 241);
   text-align: center;
+  border-radius: 5px;
 }
 .gri3 p{
   font-weight: bolder;
@@ -110,23 +111,43 @@ padding-left: 100px;
   display:flex;
   font-size: 10px;
   margin-left: 10px;
-  gap:8px;
+  gap:10px;
+}
+.gri3 .bars{
+  display:flex;
+  border-radius: 5px;
+  gap:10px;
+  margin-left:10px;
+  height:40px;
+  align-items: flex-end;
+  justify-content: center;
 }
 .gri3 .bar{
-  display:flex;
-  width:5px;
-  background-color: blue;
+  background-color: rgb(79, 79, 248);
+  width:9px;
   border-radius: 5px;
-  height:10px;
+  margin-bottom: 0%;
+
 }
+
 .gri3 .white{
-  height:160px;
+  height:180px;
   width:120px;
   border-radius: 5px;
   background-color:white;
   margin-left:30px;
   justify-content: center;
 }
+.white .num{
+  display:flex;
+  color:rgb(131, 128, 128);
+  gap:10px;
+  margin-left:15px;
+  font-size: 10px;
+  font-weight: lighter;
+  margin-bottom:10px ;
+}
+
 .gri4{
 border-radius: 5px;
 background-color: white;
