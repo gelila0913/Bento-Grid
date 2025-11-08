@@ -7,7 +7,6 @@ min-height:100dvh;
 display:flex;
 align-items:centere;
 justify-content:centere;
-padding:2%;
 background-color:whitesmoke ;
 
 }
@@ -204,8 +203,6 @@ margin-right: 5px;
 }
 .gri6{ 
   grid-auto-flow:dense;
-  grid-row:2/4;
-  grid-column:1/2;
   background-color: rgb(240, 186, 87) ;
   border-radius:5px;
 }
@@ -217,18 +214,30 @@ margin-right: 5px;
 }
 .gri6 .inner{
 background-color: white;
-height:90px;
-border-radius: 5px;
-padding-left: 100px;
+height:150px;
+border-radius: 7px;
+margin-left: 10px;
+margin-right:10px;
+padding-top:10px;
+
 }
 .gri6 .inner2{
-  background-color: antiquewhite;
-  height:30px;
-  padding-top: 10px;
+  display: flex;
 } 
+
+.gri6 .chat{
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  height:50px;
+  width:250px;
+border-radius: 25px;
+}
 .inner .inner2 img{
   height:20px;
-  padding-left:30px;
+  padding-left:25px;
+  border-radius: 360px;
+  padding-top: 0;
+  padding-right: 10px;
 }
 .gri7{
   background-color: white;
