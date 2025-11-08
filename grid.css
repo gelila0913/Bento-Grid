@@ -1,5 +1,6 @@
 *{
   box-sizing:border-box;
+  padding:0;
 }
 body{
 min-height:100dvh;
@@ -23,11 +24,7 @@ background-color:whitesmoke ;
   "box6 box7 box8 box8";
   margin:50px;
 }
-.gri{
-  background-color: rgb(25, 110, 110);
-  padding:2em;
-  border-radius:7px;
-}
+
 .gri1{
   background-color:rgb(250, 236, 220);
   text-align: center;
@@ -45,6 +42,7 @@ background-color:whitesmoke ;
   background-color:rgb(240, 186, 87) ;
   border-radius: 20px;
   height:30px;
+  width:120px;
   
 }
 .gri1 p{
@@ -135,7 +133,6 @@ background-color: white;
   padding-top: 1px;
   margin-left:10px;
   font-weight:bolder;
-
 } 
 .gri4 .top{
   width:115px;
@@ -161,13 +158,49 @@ background-color:rgb(240, 186, 87) ;
 .gri5{
   background-color: rgb(240, 186, 87);
   border-radius: 5px;
-
+  
 }
 .gri5 p{
   font-weight: bolder;
   text-align: center;
   text-align: left;
   margin-left: 15px;
+}
+.gri5 .cal{
+  background-color: white;
+  border-radius:5px;
+  width:105px;
+  height:51px;
+  margin-left:8px;
+  
+}
+.gri5 .text3{
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  height:20px;
+  display:flex;
+  background-color:hsl(258, 70%, 55%);
+  justify-content: space-between;
+}
+
+.gri5 .text3 p{
+  padding-top: 5px;
+color:white;
+font-size: 10px;
+font-weight: lighter;
+margin:0px;
+margin-right: 5px;
+}
+.gri5 .list ul{
+  display:flex;
+  justify-content: space-between;
+  margin:0;
+
+
+}
+.gri5 .list li{
+  list-style: none;
+  left:10px;
 }
 .gri6{ 
   grid-auto-flow:dense;
@@ -178,8 +211,9 @@ background-color:rgb(240, 186, 87) ;
 }
 .gri6 p{
   font-weight: bolder;
-  text-align: center;
+  text-align: left;
   justify-content: center;
+  padding-left:15px;
 }
 .gri6 .inner{
 background-color: white;
@@ -271,5 +305,5 @@ align-items: flex-end;
 }
 .gri8 .p{
   color:white;
-  padding-top: 50px;
+  padding-top:50px ;
 }
