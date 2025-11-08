@@ -1,3 +1,6 @@
+*{
+  box-sizing:border-box;
+}
 body{
 min-height:100dvh;
 display:flex;
@@ -92,10 +95,37 @@ padding-left: 100px;
 .gri3 p{
   font-weight: bolder;
 }
-.gri3 .white{
+.gri3 .pi{
+  font-size:10px; 
+  padding-top: 10px;
+  border-radius:5PX; 
+  text-align: center;
+  width:90px;
+  height:30px;
+  margin-left:8px;
+
+}
+.gri3 .week{
+  color:rgb(202, 198, 198);
+  display:flex;
+  font-size: 10px;
+  margin-left: 10px;
+  gap:8px;
+}
+.gri3 .bar{
+  display:flex;
+  width:5px;
+  background-color: blue;
   border-radius: 5px;
-  height:50px;
+  height:10px;
+}
+.gri3 .white{
+  height:160px;
+  width:120px;
+  border-radius: 5px;
   background-color:white;
+  margin-left:30px;
+  justify-content: center;
 }
 .gri4{
 border-radius: 5px;
@@ -122,6 +152,18 @@ background-color: white;
 }
 .gri8{
     background-color:rgb(122, 122, 223) ;
-    display: flex;
+}
+.gri8  .white{
+  height:100px;
+  width:100px;
+  background-color: white;
+  border-radius:10px;
+  margin:20px;
+  box-sizing: border-box;
+}
+.gri8 .p{
+  color:white;
+  margin-left: 120px;
+  justify-content: center;
 
 }
