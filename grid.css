@@ -13,7 +13,7 @@ background-color:whitesmoke ;
 .grid-container{
   display:grid;
   grid-template-columns: 150px 120px 120px 150px;
-  grid-template-rows: 170px 70px 70px 150px ;
+  grid-template-rows: 170px 70px 70px 160px ;
   gap:1em;
   justify-content:center;
   grid-template-areas:
@@ -103,10 +103,9 @@ background-color:whitesmoke ;
   justify-content: center;
 }
 .gri3 .bar{
-  background-color:rgb(68, 68, 192) ;
+  background-color:hsl(258, 70%, 55%);
   width:9px;
   border-radius: 5px;
-  margin-bottom: 0%;
 
 }
 
@@ -223,26 +222,54 @@ padding-left: 100px;
   border-radius:10px;
   margin:20px;
   box-sizing: border-box;
+  line-height: 0.5px;
+  position:relative;
 }
 .gri8 .white .text{
-margin-left: 10px;
+margin-left: 15px;
 line-height:0.1;
 padding-top:15px;
-margin-right:10px;
-}
-.gri8 .num{
-display:flex;
+margin-right:20px;
 }
 
-.gri8 .bars{
-  align-items: flex-end;
+.gri8 .text .bars{
+display:flex;
+align-items: flex-end;
 gap:10px;
+height:35px;
+align-items: flex-end;
 }
-gri8 .bar{
-  background-color: blue;
+.gri8 .bar{
+  background-color:hsl(258, 70%, 55%);
   width:9px;
+  border-radius:10px;
+
+}
+.gri8 .bottom{
+  height:42px;
+  width:150px;
+  position:absolute;
+  top:90px;
+  left:25px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0 2px 2px rgba(0,0,0,1);
+}
+.gri8 .bot{
+  display: flex;
+  gap:2px;
+}
+.gri8 .bot img{
+  margin-left:10px;
+  margin-top: 5px;
+  margin-bottom:20px;
+  background-color: rgb(240, 186, 87) ;
+  border-radius: 30px;
+}
+.gri8 .bot .text2{
+  margin-top:10px;
 }
 .gri8 .p{
   color:white;
-
+  padding-top: 50px;
 }
