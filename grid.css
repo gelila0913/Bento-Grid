@@ -139,7 +139,7 @@ background-color: white;
   margin-top:10px;
   margin-left: 5px;
   margin-right: 10px;
-  box-shadow: 0 1px 1px rgba(0,0,0,1);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.5);
   border-radius:20px;
   background-color: white;
 }
@@ -223,21 +223,45 @@ padding-top:10px;
 }
 .gri6 .inner2{
   display: flex;
+  padding-left: 5px;
 } 
 
 .gri6 .chat{
-  background-color: antiquewhite;
+  background-color:rgb(252, 238, 222) ;
   box-sizing: border-box;
   height:50px;
   width:250px;
-border-radius: 25px;
+  border-radius: 20px;
+}
+
+.gri6 .arrow img{
+  background-color:rgb(240, 186, 87) ;
+  border-radius: 360px;
+  position:absolute;
+  margin-left:90px;
+  top:465px;
+  width:35px;
+
 }
 .inner .inner2 img{
-  height:20px;
-  padding-left:25px;
+  height:40px;
   border-radius: 360px;
   padding-top: 0;
-  padding-right: 10px;
+  padding-right: px;
+}
+.inner .inner3 {
+height: 75px;
+width:100px;
+background-color:rgb(245, 216, 179) ;
+border-radius:15px;
+margin-top:10px;
+}
+.gri6 .star{
+  display: flex;
+  gap:5px;
+}
+.gri6 .inner .star{
+  margin-right:10px;
 }
 .gri7{
   background-color: white;
@@ -315,4 +339,19 @@ align-items: flex-end;
 .gri8 .p{
   color:white;
   padding-top:50px ;
+}
+@media(max-width:56em;){
+  .grid-container{
+
+    grid-template-areas: 
+    "box2 box2"
+    "box4 box4"
+    "box5 box5"
+    "box3 box3"
+    "box8 box8"
+    "box7 box7"
+    "box1 box1"
+    "box6 box6"
+    ;
+  }
 }
